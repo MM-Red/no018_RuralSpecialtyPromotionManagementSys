@@ -25,8 +25,14 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
 
-
-
+aliyum:
+ oss:
+   endpoint: oss-cn-beijing.aliyuncs.com
+   accessKeyId: xxxxx
+   accessKeySecret: xxx
+   bucketName: xxx
+   bucketDomain: xxx
+   avatarSuffix: .png
 
 poem:
   challenge-generate-question-count: 10
